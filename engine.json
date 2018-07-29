@@ -1,0 +1,28 @@
+{
+  "id": "crp clustering",
+  "description": "",
+  "engineFactory": "com.template.crp_clustering.CRPEngine$",
+  "datasource": {
+    "params" : {
+      "appName": "MyApp",
+      "appId": 2,
+      "dimention" : 2
+    }
+  },
+   "algorithms": [
+    {
+      "name": "algo",
+      "comment": "",
+      "params": {
+        "mu": [0.0,0.0],
+        "sigma_table": 1,
+        "alpha": 1,
+        "ro_0": 1,
+        "burn_in": 100,
+        "iteration": 1000
+      }
+    }
+  ]
+}
+
+
