@@ -74,6 +74,7 @@ Train data format in "input.json".
 After init and build, you can train model. If no error, you can deploy the template: 
 
 ```
+> pio-start-all
 > pio train
 > pio deploy
 ```
