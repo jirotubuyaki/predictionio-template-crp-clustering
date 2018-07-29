@@ -35,7 +35,7 @@ Sigma_k is a variance-covariance matrix of k th cluster. i and j are rows and co
 Template is available through GitHub (https://github.com/jirotubuyaki/predictionio-template-crp-clustering)). You can download by the commands:
 
 ```
-> git clone https://github.com/jirotubuyaki/predictionio-template-crp-clustering.git crp_clustering
+> pio template get jirotubuyaki/predictionio-template-crp-clustering crp_clustering
 > cd crp_clustering
 ```
 
