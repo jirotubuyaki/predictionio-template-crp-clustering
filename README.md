@@ -89,6 +89,12 @@ For predict, query is this style below. If you change data dimention, please imp
 > curl -H 'Content-Type: application/json' '127.0.0.1:8000/queries.json' -d '{"point": 2.5,"point": -1.0}'
 ```
 
+Finally, predict result is obtained by Json format.  First column is joined cluster id. Next later columns are joined probability for each cluster. Predict result format is below: 
+
+```
+{"cluster": [2.0, 0.65, 0.32, 0.49, 0.11]}
+```
+
 ## Methods
 ### Parameters for Chinese Restaurant Process Clustering
 It is "engine.json" file. You can set model parameters. 
