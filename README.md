@@ -92,7 +92,7 @@ For predict, query is this style below. If you change data dimention, please imp
 Finally, predict result is obtained by Json format.  First column is joined cluster id. Next later columns are joined probability for each cluster. Predict result format is below: 
 
 ```
-{"cluster": [2.0, 0.65, 0.32, 0.49, 0.11]}
+{"cluster": [2.0, 0.49, 0.32, 0.65, 0.11]}
 ```
 
 ## Methods
