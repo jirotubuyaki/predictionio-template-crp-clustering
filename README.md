@@ -128,7 +128,8 @@ Let arguments be:  .
 Data is generated from five distributions and parameters are set as mu=c(0, 0, 0), alpha=1, sigmatable=1, rho_0=1, burnin=100, iteration=1000. The result is plotted on a graph and each data joins in any cluster. The graph is given by below:  
 
 ![equa](https://github.com/jirotubuyaki/CRPClustering/blob/master/readme_images/figure_1.png)  
-                                   Figure 1. 10 dimentional Clustering
+　　　　　　　　　　　　　　　　　　　　　Figure 1. 10 dimentional Clustering  
+                     
 ![equa](./readme_images/figure_1.png "eque")
 
 　　　　　　　　　　　　　　　　　　　　　Figure 2. CRP clustering result
