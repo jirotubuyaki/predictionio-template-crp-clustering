@@ -125,11 +125,13 @@ Let arguments be:  .
   ・ iteration : an iteration integer.    
 
 ## Example
-Data is generated from five distributions and parameters are set as mu=c(0, 0, 0), alpha=1, sigmatable=1, rho_0=1, burnin=100, iteration=1000. The result is plotted on a graph and each data joins in any cluster. The graph is given by below:
+Data is generated from five distributions and parameters are set as mu=c(0, 0, 0), alpha=1, sigmatable=1, rho_0=1, burnin=100, iteration=1000. The result is plotted on a graph and each data joins in any cluster. The graph is given by below:  
 
+![equa](https://github.com/jirotubuyaki/CRPClustering/blob/master/readme_images/figure_1.png)  
+                                   Figure 1. 10 dimentional Clustering
 ![equa](./readme_images/figure_1.png "eque")
 
-　　　　　　　　　　　　　　　　　　　　　Figure 1. CRP clustering result
+　　　　　　　　　　　　　　　　　　　　　Figure 2. CRP clustering result
 
 ## Conclusions
 Chinese restaurant process clustering was implemented and explained how to use it. After this, several improvements are planed. Please send suggestions and report bugs to okadaalgorithm@gmail.com.
